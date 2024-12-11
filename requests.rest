@@ -9,6 +9,13 @@ Content-Type: application/json
 ###
 http://localhost:3001/api/blogs
 ###
-http://localhost:3001/api/blogs/1
+http://localhost:3001/api/blogs/2
 ###
-DELETE http://localhost:3001/api/blogs/4
+DELETE http://localhost:3001/api/blogs/6
+###
+PUT http://localhost:3001/api/blogs/7
+Content-Type: application/json
+
+{
+    "likes": 4
+}
