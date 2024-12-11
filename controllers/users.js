@@ -8,20 +8,16 @@ router.get('/', async (req, res) => {
   res.json(users)
 })
 
-router.post('/', async (req, res) => {
-  try {
-    const { username, name, password } = req.body
-    const saltRounds = 10
-    const passwordHash = await bcrypt.hash(password, saltRounds)
+router.post('/', async (req, res, next) => {
+  const { username, name, password } = req.body
+  const saltRounds = 10
+  const passwordHash = await bcrypt.hash(password, saltRounds)
 
-    const user = await User.create({ username, name, passwordHash })
-    res.json(user)
-  } catch (error) {
-    return res.status(400).json({ error })
-  }
+  const user = await User.create({ username, name, passwordHash })
+  res.json(user)
 })
 
-router.put('/:id', async (req, res) => {
+router.put('/:id', async (req, res, next) => {
   const user = await User.findByPk(req.params.id)
   if (user) {
     user.username = req.body.username

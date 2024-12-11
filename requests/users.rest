@@ -4,7 +4,7 @@ POST http://localhost:3001/api/users
 Content-Type: application/json
 
 {
-    "username": "mluukkai",
+    "username": "mluukkai@joku.fi",
     "name": "Matti Luukkainen",
     "password": "secret"
 }
@@ -22,5 +22,5 @@ PUT http://localhost:3001/api/users/2
 Content-Type: application/json
 
 {
-    "username": "olsan"
+    "username": "olsand"
 }
