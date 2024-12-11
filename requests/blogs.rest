@@ -1,9 +1,11 @@
 POST http://localhost:3001/api/blogs
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpQGpva3UuZmkiLCJpZCI6MywiaWF0IjoxNzMzOTQ4Mjc2fQ.xR5JaeLpg95uIqKm9ZnrtUrjbV0GSX1hBbOQUFucERU
 
 {
     "author": "andy",
-    "url": "testUrl"
+    "url": "testUrl",
+    "title": "test title 2"
 }
 ###
 http://localhost:3001/api/blogs
