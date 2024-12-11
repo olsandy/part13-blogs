@@ -3,16 +3,16 @@ Content-Type: application/json
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpQGpva3UuZmkiLCJpZCI6MywiaWF0IjoxNzMzOTQ4Mjc2fQ.xR5JaeLpg95uIqKm9ZnrtUrjbV0GSX1hBbOQUFucERU
 
 {
-    "author": "andy",
-    "url": "testUrl",
-    "title": "test title 2"
+    "author": "mluukkai",
+    "url": "fullstackopen.com",
+    "title": "Full Stack open"
 }
 ###
 http://localhost:3001/api/blogs
 ###
 http://localhost:3001/api/blogs/2
 ###
-DELETE http://localhost:3001/api/blogs/9
+DELETE http://localhost:3001/api/blogs/10
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpQGpva3UuZmkiLCJpZCI6MywiaWF0IjoxNzMzOTQ4Mjc2fQ.xR5JaeLpg95uIqKm9ZnrtUrjbV0GSX1hBbOQUFucERU
 
 ###
