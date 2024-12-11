@@ -12,7 +12,9 @@ http://localhost:3001/api/blogs
 ###
 http://localhost:3001/api/blogs/2
 ###
-DELETE http://localhost:3001/api/blogs/6
+DELETE http://localhost:3001/api/blogs/9
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpQGpva3UuZmkiLCJpZCI6MywiaWF0IjoxNzMzOTQ4Mjc2fQ.xR5JaeLpg95uIqKm9ZnrtUrjbV0GSX1hBbOQUFucERU
+
 ###
 PUT http://localhost:3001/api/blogs/7
 Content-Type: application/json
