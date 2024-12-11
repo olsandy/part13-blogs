@@ -3,8 +3,7 @@ Content-Type: application/json
 
 {
     "author": "andy",
-    "url": "testUrl",
-    "title": "testTitle"
+    "url": "testUrl"
 }
 ###
 http://localhost:3001/api/blogs
@@ -17,5 +16,5 @@ PUT http://localhost:3001/api/blogs/7
 Content-Type: application/json
 
 {
-    "likes": 4
+    "likes": null
 }
