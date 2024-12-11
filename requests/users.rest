@@ -1,0 +1,26 @@
+http://localhost:3001/api/users
+###
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+    "username": "mluukkai",
+    "name": "Matti Luukkainen",
+    "password": "secret"
+}
+###
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+    "username": "olsandy",
+    "name": "Andy Olsson",
+    "password": "passu"
+}
+###
+PUT http://localhost:3001/api/users/2
+Content-Type: application/json
+
+{
+    "username": "olsan"
+}
