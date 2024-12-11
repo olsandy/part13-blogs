@@ -1,0 +1,14 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+
+{
+    "author": "andy",
+    "url": "testUrl",
+    "title": "testTitle"
+}
+###
+http://localhost:3001/api/blogs
+###
+http://localhost:3001/api/blogs/1
+###
+DELETE http://localhost:3001/api/blogs/4
