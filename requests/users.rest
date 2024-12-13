@@ -1,5 +1,7 @@
 http://localhost:3001/api/users
 ###
+http://localhost:3001/api/users/1
+###
 POST http://localhost:3001/api/users
 Content-Type: application/json
 
@@ -18,9 +20,9 @@ Content-Type: application/json
     "password": "passu"
 }
 ###
-PUT http://localhost:3001/api/users/2
+PUT http://localhost:3001/api/users/1
 Content-Type: application/json
 
 {
-    "username": "olsand"
+    "username": "mluukkai@joku.fi"
 }

@@ -1,11 +1,12 @@
 POST http://localhost:3001/api/blogs
 Content-Type: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpQGpva3UuZmkiLCJpZCI6MywiaWF0IjoxNzMzOTQ4Mjc2fQ.xR5JaeLpg95uIqKm9ZnrtUrjbV0GSX1hBbOQUFucERU
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpQGpva3UuZmkiLCJpZCI6MSwiaWF0IjoxNzM0MDc5Nzk3fQ.y8ODrGPkHwPonaqWk9axXHMamonqhtAH-KzjQ701mJU
 
 {
     "author": "mluukkai",
     "url": "fullstackopen.com",
-    "title": "Full Stack open"
+    "title": "Full Stack open",
+    "year": 1992
 }
 ###
 http://localhost:3001/api/blogs
