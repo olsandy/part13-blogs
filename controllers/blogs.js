@@ -26,12 +26,6 @@ const tokenExtractor = (req, res, next) => {
 router.get('/', async (req, res) => {
   let where = {}
 
-  // if (req.query.search) {
-  //   where.title = {
-  //     [Op.substring]: req.query.search,
-  //   }
-  // }
-
   if (req.query.search) {
     where = {
       [Op.or]: [
