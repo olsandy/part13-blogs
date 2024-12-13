@@ -4,8 +4,8 @@ Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sd
 
 {
     "author": "mluukkai",
-    "url": "fullstackopen.com",
-    "title": "Full Stack open",
+    "url": "test.com",
+    "title": "test title",
     "year": 1992
 }
 ###
