@@ -3,8 +3,6 @@ const unknownEndpoint = (request, response) => {
 }
 
 const errorHandler = (error, request, response, next) => {
-  console.log(Object.keys(error))
-  console.log(error.name)
   console.log(JSON.stringify(error, null, 2))
   if (error.name === 'SequelizeDatabaseError') {
     return response.status(400).send({ error: 'unknown database error' })
