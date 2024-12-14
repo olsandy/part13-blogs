@@ -5,3 +5,11 @@ Content-Type: application/json
     "username": "mluukkai@joku.fi",
     "password": "secret"
 }
+###
+POST http://localhost:3001/api/login
+Content-Type: application/json
+
+{
+    "username": "olsandy@joku.fi",
+    "password": "passu"
+}

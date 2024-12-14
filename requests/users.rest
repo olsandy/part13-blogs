@@ -6,9 +6,9 @@ POST http://localhost:3001/api/users
 Content-Type: application/json
 
 {
-    "username": "mluukkai@joku.fi",
-    "name": "Matti Luukkainen",
-    "password": "secret"
+    "username": "olsandy@joku.fi",
+    "name": "OlsAndy",
+    "password": "passu"
 }
 ###
 POST http://localhost:3001/api/users
