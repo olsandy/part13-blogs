@@ -27,6 +27,9 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    disabled: {
+      type: DataTypes.BOOLEAN,
+    },
   },
   {
     sequelize,
@@ -39,6 +42,11 @@ User.init(
     scopes: {
       withPassword: {
         attributes: {},
+      },
+    },
+    hooks: {
+      beforeCreate: (user, options) => {
+        user.disabled = false
       },
     },
   }
